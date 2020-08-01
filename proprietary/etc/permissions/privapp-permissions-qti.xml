@@ -105,12 +105,4 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.READ_BLOCKED_NUMBERS" />
         <permission name="android.permission.VIBRATE" />
     </privapp-permissions>
-    <!--#ifdef CM_EDIT-->
-    <!-- Bo.Zhang@CM.RM.Android.CTS.2672074, 2020/1/11, Modify for cts.CheckpointHostTest#testLogEntries -->
-    <privapp-permissions package="com.google.android.syncadapters.contacts">
-        <permission name="android.permission.WRITE_CONTACTS"/>
-        <permission name="android.permission.GET_ACCOUNTS"/>
-        <permission name="android.permission.READ_CONTACTS"/>
-    </privapp-permissions>
-    <!--#endif  CM_EDIT-->
 </permissions>
